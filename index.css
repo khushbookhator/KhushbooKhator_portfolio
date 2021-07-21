@@ -220,10 +220,16 @@ li {
     .hero{
         transform: translate(10%, -50%);
     }
+    .githubstats{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 768px){
     .hero > h1{
         font-size: 4rem;
+    }
+    .githubstats{
+        width: 95%;
     }
 }
 @media only screen and (max-width: 755px){
@@ -239,6 +245,8 @@ li {
     .hero h4{
         font-size: 2rem;
     }
+}
+@media only screen and (max-width: 900px){
     .banner{
         width: 220px;
         height: 220px;
@@ -246,6 +254,28 @@ li {
         justify-content: center;
     }
 }
+@media only screen and (max-width: 700px){
+    .banner{
+        width: 180px;
+        height: 180px;
+        margin-top: 350px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 550px){
+    .banner{
+        width: 150px;
+        height: 150px;
+        margin-top: 350px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 400px){
+    .banner{
+        display: none;
+    }
+}
+
 .icons {
     position: absolute;
     bottom: 5%;
@@ -327,10 +357,7 @@ li {
 .githubstats1{
     width: 100%;
 }
-.githubstats2{
-    width: 50%;
-    margin: auto;
-}
+
 
 .right h1{
     margin-bottom: 2rem;
@@ -382,7 +409,7 @@ a.btn:active{
 @media only screen and (max-width: 768px){
     .about-center{
         grid-template-columns: 1fr;
-        gap: 30rem 0;
+        gap: 7rem 0;
     }
      .left {
          text-align: center;
@@ -413,6 +440,14 @@ a.btn:active{
     border-bottom: 4px solid transparent;
     transition: all 300ms ease-in-out;
     height: 44rem;
+}
+@media only screen and (max-width: 380px){
+    .project{
+        padding: 5px;
+    }
+    .project .img-cover {
+        border: 1px solid black;
+    }
 }
 .project .img-cover {
     overflow: hidden;
@@ -481,12 +516,18 @@ a.btn:active{
         margin: auto;
         justify-content: center;
     }
+    .skills-center > * {
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 590px){
     .skills-center{
         flex-direction: column;
-        width: 70%;
+        width: 80%;
         margin: auto;
+    }
+    .skills-center > * {
+        text-align: center;
     }
 }
 .github {
