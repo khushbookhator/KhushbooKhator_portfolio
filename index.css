@@ -463,8 +463,8 @@ a.btn:active{
     height: 100%;
     object-fit: cover;
 }
-.project h3{
-    font-size: 1.6rem;
+.project h2{
+    font-size: 1.8rem;
     margin: 1rem 0;
 }
 .project p {
@@ -519,6 +519,9 @@ a.btn:active{
     .skills-center > * {
         text-align: center;
     }
+    .skillImgs{
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 590px){
     .skills-center{
@@ -529,6 +532,11 @@ a.btn:active{
     .skills-center > * {
         text-align: center;
     }
+}
+.skillImgs{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
 }
 .github {
     background: #000;

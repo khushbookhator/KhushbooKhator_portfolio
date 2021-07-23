@@ -3,8 +3,15 @@ const navOpen = document.querySelector(".hamburger")
 const navClose = document.querySelector(".close")
 const navBar = document.querySelector(".navbar")
 const navLink = document.querySelector(".nav-list")
+const bd = document.getElementById("bd")
+const bd2 = document.getElementById("bd2")
 
-
+bd.addEventListener('click', () => {
+  menu.classList.remove("show")
+})
+bd2.addEventListener('click', () => {
+  menu.classList.remove("show")
+})
 
 navOpen.addEventListener('click', () => {
   menu.classList.add("show");
