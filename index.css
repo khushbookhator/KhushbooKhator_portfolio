@@ -99,7 +99,8 @@ li {
 .logo p {
     font-size: 2rem;
     color: #fff;
-    font-family:'Brush Script MT'
+    font-family:'Brush Script MT';
+    cursor: pointer;
 }
 
 .nav-list {
