@@ -65,7 +65,8 @@ li {
     left:0;
     width: 100%;
     background-color: #dd9a05;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 600ms ease-in-out;
+    box-shadow: 0 5px 15px rgba(163, 152, 152, 0.1);
     z-index:999;
 }
 .top-nav{
